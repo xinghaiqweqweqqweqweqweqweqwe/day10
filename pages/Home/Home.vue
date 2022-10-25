@@ -1,6 +1,8 @@
 <template>
 	<view>
-		
+		首页
+		<uni-search-bar>
+		</uni-search-bar>
 	</view>
 </template>
 
@@ -8,7 +10,7 @@
 	export default {
 		data() {
 			return {
-				
+
 			};
 		}
 	}
