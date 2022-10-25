@@ -38,25 +38,29 @@
 	"tabBar": {
 		"list": [{
 			"pagePath": "pages/Home/Home",
-			"text": "首页"
+			"text": "首页",
+			"iconPath": "static/tab_icons/home.png",
+			"selectedIconPath": "static/tab_icons/home-active.png"
 		},{
 			"pagePath": "pages/Classification/Classification",
-			"text": "分类"
+			"text": "分类",
+			"iconPath": "static/tab_icons/cate.png",
+			"selectedIconPath": "static/tab_icons/cate-active.png"
 		},{
 			"pagePath": "pages/Coupons/Coupons",
 			"text": "优惠券",
-			"iconPath": "",
-			"selectedIconPath": ""
+			"iconPath": "static/my-icons/icon4.png",
+			"selectedIconPath": "static/my-icons/icon1.png"
 		},{
 			"pagePath": "pages/Shopping/Shopping",
 			"text": "购物车",
-			"iconPath": "",
-			"selectedIconPath": ""
+			"iconPath": "static/tab_icons/cart.png",
+			"selectedIconPath": "static/tab_icons/cart-active.png"
 		},{
 			"pagePath": "pages/My/My",
 			"text": "我的",
-			"iconPath": "",
-			"selectedIconPath": ""
+			"iconPath": "static/tab_icons/my.png",
+			"selectedIconPath": "static/tab_icons/my-active.png"
 		}
 		]
 	},
