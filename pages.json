@@ -1,0 +1,72 @@
+{
+	"pages": [{
+		"path": "pages/Home/Home",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/Classification/Classification",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/Coupons/Coupons",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/Shopping/Shopping",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}, {
+		"path": "pages/My/My",
+		"style": {
+			"navigationBarTitleText": "",
+			"enablePullDownRefresh": false
+		}
+
+	}],
+	"tabBar": {
+		"list": [{
+			"pagePath": "pages/Home/Home",
+			"text": "首页"
+		},{
+			"pagePath": "pages/Classification/Classification",
+			"text": "分类"
+		},{
+			"pagePath": "pages/Coupons/Coupons",
+			"text": "优惠券",
+			"iconPath": "",
+			"selectedIconPath": ""
+		},{
+			"pagePath": "pages/Shopping/Shopping",
+			"text": "购物车",
+			"iconPath": "",
+			"selectedIconPath": ""
+		},{
+			"pagePath": "pages/My/My",
+			"text": "我的",
+			"iconPath": "",
+			"selectedIconPath": ""
+		}
+		]
+	},
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "uni-app",
+		"navigationBarBackgroundColor": "#F8F8F8",
+		"backgroundColor": "#F8F8F8",
+		"app-plus": {
+			"background": "#efeff4"
+		}
+	}
+}

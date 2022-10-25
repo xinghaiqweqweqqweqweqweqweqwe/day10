@@ -1,0 +1,47 @@
+{
+  "pages": [
+    "pages/Home/Home",
+    "pages/Classification/Classification",
+    "pages/Coupons/Coupons",
+    "pages/Shopping/Shopping",
+    "pages/My/My"
+  ],
+  "subPackages": [],
+  "window": {
+    "navigationBarTextStyle": "black",
+    "navigationBarTitleText": "uni-app",
+    "navigationBarBackgroundColor": "#F8F8F8",
+    "backgroundColor": "#F8F8F8"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/Home/Home",
+        "text": "首页"
+      },
+      {
+        "pagePath": "pages/Classification/Classification",
+        "text": "分类"
+      },
+      {
+        "pagePath": "pages/Coupons/Coupons",
+        "text": "优惠券",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/Shopping/Shopping",
+        "text": "购物车",
+        "iconPath": "",
+        "selectedIconPath": ""
+      },
+      {
+        "pagePath": "pages/My/My",
+        "text": "我的",
+        "iconPath": "",
+        "selectedIconPath": ""
+      }
+    ]
+  },
+  "usingComponents": {}
+}
