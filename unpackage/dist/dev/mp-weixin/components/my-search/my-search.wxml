@@ -1,0 +1,1 @@
+<view><view class="search _div"><label class="_span">天使童装</label><input type="text" placeholder="输入关键字搜索" data-event-opts="{{[['tap',[['enter',['$event']]]]]}}" bindtap="__e"/></view></view>

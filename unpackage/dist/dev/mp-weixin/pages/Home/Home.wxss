@@ -38,4 +38,17 @@
   text-decoration: line-through;
   margin-left: 15px;
 }
+.search {
+  background-color: white;
+  height: 100rpx;
+  display: flex;
+}
+.search ._span {
+  font-size: 40rpx;
+  font-weight: 800;
+  padding: 0rpx 40rpx;
+}
+.search input {
+  background-color: #f6f8fa;
+}
 

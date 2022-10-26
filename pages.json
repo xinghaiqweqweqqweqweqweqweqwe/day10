@@ -34,33 +34,58 @@
 			"enablePullDownRefresh": false
 		}
 
-	}],
+	}    ,{
+            "path" : "components/my-search/my-search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/search/search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "搜一搜",
+                "enablePullDownRefresh": false
+				// "navigationBarBackgroundColor": ""
+            }
+            
+        }
+        ,{
+            "path" : "subpkg/cartList/cartList",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "商品列表",
+                "enablePullDownRefresh": false
+				// "navigationBarBackgroundColor": ""
+            }
+            
+        }
+    ],
 	"tabBar": {
 		"list": [{
 			"pagePath": "pages/Home/Home",
-			"text": "首页",
-			"iconPath": "static/tab_icons/home.png",
-			"selectedIconPath": "static/tab_icons/home-active.png"
+			"text": "首页"
 		},{
 			"pagePath": "pages/Classification/Classification",
-			"text": "分类",
-			"iconPath": "static/tab_icons/cate.png",
-			"selectedIconPath": "static/tab_icons/cate-active.png"
+			"text": "分类"
 		},{
 			"pagePath": "pages/Coupons/Coupons",
 			"text": "优惠券",
-			"iconPath": "static/my-icons/icon4.png",
-			"selectedIconPath": "static/my-icons/icon1.png"
+			"iconPath": "",
+			"selectedIconPath": ""
 		},{
 			"pagePath": "pages/Shopping/Shopping",
 			"text": "购物车",
-			"iconPath": "static/tab_icons/cart.png",
-			"selectedIconPath": "static/tab_icons/cart-active.png"
+			"iconPath": "",
+			"selectedIconPath": ""
 		},{
 			"pagePath": "pages/My/My",
 			"text": "我的",
-			"iconPath": "static/tab_icons/my.png",
-			"selectedIconPath": "static/tab_icons/my-active.png"
+			"iconPath": "",
+			"selectedIconPath": ""
 		}
 		]
 	},
