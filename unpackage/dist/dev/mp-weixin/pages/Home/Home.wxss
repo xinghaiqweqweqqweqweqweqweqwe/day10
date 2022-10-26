@@ -1,13 +1,28 @@
 @charset "UTF-8";
 /* 水平间距 */
 /* 水平间距 */
-.homea input {
-  height: 30px;
-  width: 80%;
-  border-radius: 30px;
-  background-color: #f6f8fa;
-  margin-left: 10%;
+.homea {
+  display: flex;
+  height: 40px;
+  background-color: #fff;
+  width: 100%;
+  align-items: center;
+  margin-bottom: 10px;
+  z-index: 1000000;
+}
+.homea .a {
+  font-size: 14px;
+  margin-left: 10px;
+}
+.homea .b {
   padding-left: 15px;
+  margin-left: 10px;
+  background-color: #f0f0f0;
+  border-radius: 10px;
+  width: 180px;
+}
+.zz {
+  position: fixed;
 }
 .swiperList {
   width: 100%;
